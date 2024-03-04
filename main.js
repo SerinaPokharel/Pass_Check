@@ -33,6 +33,6 @@ password.addEventListener("input", () => {
     } else if(password.value.length >= 12){
         strength.innerHTML = "Strong";
         password.style.borderColor='green'
-        msg.style.color = "greeen";
+        msg.style.color = "green";
     }
 });
